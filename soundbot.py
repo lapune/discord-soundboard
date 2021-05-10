@@ -7,7 +7,7 @@ import yaml
 data = yaml.load(open('soundboard.yaml'), Loader=yaml.FullLoader)
 print(data)
 
-TOKEN = "ODMzOTcxMDc1MjE3MjI3ODM2.YH6GFg.foJS-_u4g0K9o9XqMZZBKNiXLn0"
+TOKEN = ""
 
 intents = discord.Intents.default()
 intents.members = True
